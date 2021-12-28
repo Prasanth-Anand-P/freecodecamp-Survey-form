@@ -1,0 +1,68 @@
+body{
+	background: url(https://bebs.org/wp-content/uploads/2019/05/form-background-1024x683.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1{
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+}
+p{
+	text-align: center;
+	color: white;
+	font-style: italic;
+}
+
+.container{
+	position: relative;
+	margin:5% 25%;
+	width: 50%; 
+	padding: 40px;
+	background-color: #000;
+    color: #ffffff;
+    opacity: .5;
+    font-weight: bold;
+    font-size: 20px;
+}
+input[type="text"]{
+	margin-top: 5px;
+	width: 100%;
+	height: 30px;
+}
+input[type="email"]{
+	margin-top: 5px;
+	width: 100%;
+	height: 30px;
+}
+input[type="number"]{
+	margin-top: 5px;
+	width: 100%;
+	height: 30px;
+}
+select{
+	margin-top: 5px;
+	width: 100%;
+	height: 30px;	
+}
+option{
+	font-weight: bold;
+	border:2px gray solid;
+}
+textarea{
+	width:100%;
+}
+button{
+	margin-top: 4%;
+	margin-left:25%; 
+	width: 50%;
+	height: 30px;
+	background-color: green;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
+/*#survey-form{
+	z-index: 1;
+}*/

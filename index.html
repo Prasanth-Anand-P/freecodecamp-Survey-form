@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Form</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+
+	<h1 id="title">freeCodeCamp Survey Form</h1>
+	<p id="description">Thank you for taking  the time help us improve the platform</p>
+
+	<div class="container">
+		<form id="survey-form">
+			<label id="name-label">Name</label><br>
+			<input type="text" id="name" placeholder="Enter Your Name" required><br><br>
+
+			<label id="email-label">Email</label><br>
+			<input type="email" id="email" placeholder="Enter Your Email" required><br><br>
+
+			<label id="number-label">Age</label><br>
+			<input type="number" id="number" min="10" max="30" placeholder="Age"><br><br>
+
+			<label id="dropdown-label">Which option best describes your current role?</label><br>
+			<select id="dropdown" name="occupation">
+				<option value="select" selected>Select Current Role</option>
+				<option value="student">Student</option>
+				<option value="job">Job</option>
+				<option value="nps">Not Prefer To Say</option>
+			</select>
+			<br><br>
+			
+			<label id="radio-label">Would you recommend freeCodeCamp to a friend?</label><br>
+			<input type="radio" value="definitely" name="suggest"><label>Definitely</label><br>
+			<input type="radio" value="maybe" name="suggest"><label>Maybe</label><br>
+			<input type="radio" value="notsure" name="suggest"><label>Not sure</label><br><br>
+
+			<label id="checkbox-label">What would you like to see improved? (Check all that apply)</label><br>
+			<input type="checkbox" name="Front-end-Projects" value="interst1"><label>Front-end Projects</label><br>
+			<input type="checkbox" name="Back-end-Projects" value="interst2"><label>Back-end Projects</label><br>
+			<input type="checkbox" name="Open-Source-Community" value="interst3"><label>Open Source Community</label><br>
+			<input type="checkbox" name="Additional Courses" value="interst4"><label>Additional Courses</label><br><br>
+
+			<label id="textarea-label">Any comments or suggestions?</label><br>
+			<textarea id="textarea" rows="10" cols="60" placeholder="Enter Your Comment Here"></textarea>
+			<br>
+
+			<button type="submit" id="submit">Submit</button>
+
+		</form>
+	</div>
+
+</body>
+</html>
